@@ -1,0 +1,2611 @@
+Starting InfluxDB bridge...
+InfluxDB URL: http://localhost:8086/write?db=riemann&u=riemann&p=riemann
+✓ InfluxDB connection OK (status: 204)
+
+--- Sending metrics at 2025-08-22 19:06:29.245411 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755889589251373312
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889589251373312
+✓ Sent to InfluxDB: load,host=trust value=0.015055338541666666 1755889589251373312
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:06:40.268703 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755889600268758016
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889600268758016
+✓ Sent to InfluxDB: load,host=trust value=0.012722439236111112 1755889600268758016
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:06:51.286053 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889611286107136
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889611286107136
+✓ Sent to InfluxDB: load,host=trust value=0.0107421875 1755889611286107136
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:07:02.301695 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755889622301745920
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889622301745920
+✓ Sent to InfluxDB: load,host=trust value=0.008327907986111112 1755889622301745920
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:07:13.318365 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889633318418176
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889633318418176
+✓ Sent to InfluxDB: load,host=trust value=0.007025824652777778 1755889633318418176
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:07:24.334733 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889644334781696
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889644334781696
+✓ Sent to InfluxDB: load,host=trust value=0.030517578125 1755889644334781696
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:07:35.350968 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755889655351024128
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889655351024128
+✓ Sent to InfluxDB: load,host=trust value=0.025797526041666668 1755889655351024128
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:07:46.364218 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755889666364266240
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889666364266240
+✓ Sent to InfluxDB: load,host=trust value=0.021809895833333332 1755889666364266240
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:07:57.380050 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889677380103424
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889677380103424
+✓ Sent to InfluxDB: load,host=trust value=0.020724826388888888 1755889677380103424
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:08:08.392912 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889688392989952
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889688392989952
+✓ Sent to InfluxDB: load,host=trust value=0.017496744791666668 1755889688392989952
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:08:19.409354 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755889699409406720
+✓ Sent to InfluxDB: memory,host=trust value=0.34299999999999997 1755889699409406720
+✓ Sent to InfluxDB: load,host=trust value=0.014784071180555556 1755889699409406720
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:08:30.426419 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.055 1755889710426470400
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755889710426470400
+✓ Sent to InfluxDB: load,host=trust value=0.012478298611111112 1755889710426470400
+Sent metrics: CPU=0.06, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:08:41.439273 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755889721439329280
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889721439329280
+✓ Sent to InfluxDB: load,host=trust value=0.010552300347222222 1755889721439329280
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:08:52.453860 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.05 1755889732453901824
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889732453901824
+✓ Sent to InfluxDB: load,host=trust value=0.008165147569444444 1755889732453901824
+Sent metrics: CPU=0.05, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:09:03.472247 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755889743472293632
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889743472293632
+✓ Sent to InfluxDB: load,host=trust value=0.020236545138888888 1755889743472293632
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:09:14.488461 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889754488514048
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889754488514048
+✓ Sent to InfluxDB: load,host=trust value=0.021213107638888888 1755889754488514048
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:09:25.504661 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889765504713984
+✓ Sent to InfluxDB: memory,host=trust value=0.34299999999999997 1755889765504713984
+✓ Sent to InfluxDB: load,host=trust value=0.017930772569444444 1755889765504713984
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:09:36.521199 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889776521251840
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889776521251840
+✓ Sent to InfluxDB: load,host=trust value=0.015163845486111112 1755889776521251840
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:09:47.537754 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889787537793536
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889787537793536
+✓ Sent to InfluxDB: load,host=trust value=0.011773003472222222 1755889787537793536
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:09:58.553844 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755889798553895424
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889798553895424
+✓ Sent to InfluxDB: load,host=trust value=0.009955512152777778 1755889798553895424
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:10:09.635481 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755889809635531776
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889809635531776
+✓ Sent to InfluxDB: load,host=trust value=0.012885199652777778 1755889809635531776
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:10:20.652175 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755889820652222208
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889820652222208
+✓ Sent to InfluxDB: load,host=trust value=0.010877821180555556 1755889820652222208
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:10:31.668499 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755889831668551168
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889831668551168
+✓ Sent to InfluxDB: load,host=trust value=0.009168836805555556 1755889831668551168
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:10:42.684591 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755889842684640512
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889842684640512
+✓ Sent to InfluxDB: load,host=trust value=0.007107204861111111 1755889842684640512
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:10:53.702539 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755889853702588160
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889853702588160
+✓ Sent to InfluxDB: load,host=trust value=0.010118272569444444 1755889853702588160
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:11:04.718482 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755889864718533888
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889864718533888
+✓ Sent to InfluxDB: load,host=trust value=0.008544921875 1755889864718533888
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:11:15.793668 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755889875793716736
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889875793716736
+✓ Sent to InfluxDB: load,host=trust value=0.007188585069444444 1755889875793716736
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:11:26.809983 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755889886810034432
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889886810034432
+✓ Sent to InfluxDB: load,host=trust value=0.006049262152777778 1755889886810034432
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:11:37.825624 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755889897825673984
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889897825673984
+✓ Sent to InfluxDB: load,host=trust value=0.004665798611111111 1755889897825673984
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:11:48.841715 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755889908841764096
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889908841764096
+✓ Sent to InfluxDB: load,host=trust value=0.003933376736111111 1755889908841764096
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:11:59.857806 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755889919857859840
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889919857859840
+✓ Sent to InfluxDB: load,host=trust value=0.0033094618055555555 1755889919857859840
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:12:10.874745 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755889930874798080
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755889930874798080
+✓ Sent to InfluxDB: load,host=trust value=0.0027940538194444445 1755889930874798080
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:12:21.891593 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.059000000000000004 1755889941891644416
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755889941891644416
+✓ Sent to InfluxDB: load,host=trust value=0.006808810763888889 1755889941891644416
+Sent metrics: CPU=0.06, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:12:32.907424 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755889952907482368
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889952907482368
+✓ Sent to InfluxDB: load,host=trust value=0.009033203125 1755889952907482368
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:12:43.924127 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.037000000000000005 1755889963924167424
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889963924167424
+✓ Sent to InfluxDB: load,host=trust value=0.007622612847222222 1755889963924167424
+Sent metrics: CPU=0.04, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:12:54.940935 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889974941006080
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889974941006080
+✓ Sent to InfluxDB: load,host=trust value=0.010552300347222222 1755889974941006080
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:13:05.957937 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755889985958011136
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889985958011136
+✓ Sent to InfluxDB: load,host=trust value=0.008897569444444444 1755889985958011136
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:13:16.974168 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755889996974219008
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755889996974219008
+✓ Sent to InfluxDB: load,host=trust value=0.006863064236111111 1755889996974219008
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:13:27.989741 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890007989793792
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890007989793792
+✓ Sent to InfluxDB: load,host=trust value=0.005777994791666667 1755890007989793792
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:13:39.005849 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755890019005895936
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890019005895936
+✓ Sent to InfluxDB: load,host=trust value=0.004855685763888889 1755890019005895936
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:13:50.019464 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890030019514880
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890030019514880
+✓ Sent to InfluxDB: load,host=trust value=0.004069010416666667 1755890030019514880
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:14:01.034392 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890041034425088
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890041034425088
+✓ Sent to InfluxDB: load,host=trust value=0.00341796875 1755890041034425088
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:14:12.050984 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890052051040768
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890052051040768
+✓ Sent to InfluxDB: load,host=trust value=0.018988715277777776 1755890052051040768
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:14:23.067131 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890063067183104
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890063067183104
+✓ Sent to InfluxDB: load,host=trust value=0.016031901041666668 1755890063067183104
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:14:34.084313 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890074084366592
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890074084366592
+✓ Sent to InfluxDB: load,host=trust value=0.013536241319444444 1755890074084366592
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:14:45.160326 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890085160373504
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890085160373504
+✓ Sent to InfluxDB: load,host=trust value=0.02783203125 1755890085160373504
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:14:56.175998 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890096176047616
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890096176047616
+✓ Sent to InfluxDB: load,host=trust value=0.023518880208333332 1755890096176047616
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:15:07.251780 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890107251824896
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890107251824896
+✓ Sent to InfluxDB: load,host=trust value=0.018283420138888888 1755890107251824896
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:15:18.267723 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890118267832064
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890118267832064
+✓ Sent to InfluxDB: load,host=trust value=0.015462239583333334 1755890118267832064
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:15:29.284404 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755890129284456192
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890129284456192
+✓ Sent to InfluxDB: load,host=trust value=0.017550998263888888 1755890129284456192
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:15:40.300531 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890140300582144
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890140300582144
+✓ Sent to InfluxDB: load,host=trust value=0.014838324652777778 1755890140300582144
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:15:51.317234 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890151317294592
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890151317294592
+✓ Sent to InfluxDB: load,host=trust value=0.024848090277777776 1755890151317294592
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:16:02.333916 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890162333989376
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890162333989376
+✓ Sent to InfluxDB: load,host=trust value=0.028238932291666668 1755890162333989376
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:16:13.348758 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.048 1755890173348812032
+✓ Sent to InfluxDB: memory,host=trust value=0.34700000000000003 1755890173348812032
+✓ Sent to InfluxDB: load,host=trust value=0.023871527777777776 1755890173348812032
+Sent metrics: CPU=0.05, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:16:24.361178 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08199999999999999 1755890184361233664
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890184361233664
+✓ Sent to InfluxDB: load,host=trust value=0.020182291666666668 1755890184361233664
+Sent metrics: CPU=0.08, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:16:35.377536 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.055999999999999994 1755890195377583616
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890195377583616
+✓ Sent to InfluxDB: load,host=trust value=0.033447265625 1755890195377583616
+Sent metrics: CPU=0.06, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:16:46.394231 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755890206394280192
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890206394280192
+✓ Sent to InfluxDB: load,host=trust value=0.028293185763888888 1755890206394280192
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:16:57.411050 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890217411101952
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890217411101952
+✓ Sent to InfluxDB: load,host=trust value=0.021999782986111112 1755890217411101952
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:17:08.428024 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755890228428080640
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890228428080640
+✓ Sent to InfluxDB: load,host=trust value=0.018608940972222224 1755890228428080640
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:17:19.445020 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755890239445071104
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890239445071104
+✓ Sent to InfluxDB: load,host=trust value=0.015733506944444444 1755890239445071104
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:17:30.466096 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755890250466144512
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890250466144512
+✓ Sent to InfluxDB: load,host=trust value=0.031114366319444444 1755890250466144512
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:17:41.482214 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890261482263552
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890261482263552
+✓ Sent to InfluxDB: load,host=trust value=0.026312934027777776 1755890261482263552
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:17:52.496935 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890272497010688
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890272497010688
+✓ Sent to InfluxDB: load,host=trust value=0.028021918402777776 1755890272497010688
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:18:03.513376 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890283513426944
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890283513426944
+✓ Sent to InfluxDB: load,host=trust value=0.023681640625 1755890283513426944
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:18:14.529871 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890294529920512
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890294529920512
+✓ Sent to InfluxDB: load,host=trust value=0.02001953125 1755890294529920512
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:18:25.546929 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890305547008512
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890305547008512
+✓ Sent to InfluxDB: load,host=trust value=0.016899956597222224 1755890305547008512
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:18:36.563659 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890316563709184
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890316563709184
+✓ Sent to InfluxDB: load,host=trust value=0.03211805555555555 1755890316563709184
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:18:47.580195 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890327580251904
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890327580251904
+✓ Sent to InfluxDB: load,host=trust value=0.09852430555555555 1755890327580251904
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.10
+
+--- Sending metrics at 2025-08-22 19:18:58.595507 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755890338595564288
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890338595564288
+✓ Sent to InfluxDB: load,host=trust value=0.1305609809027778 1755890338595564288
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.13
+
+--- Sending metrics at 2025-08-22 19:19:09.612539 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755890349612590848
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890349612590848
+✓ Sent to InfluxDB: load,host=trust value=0.14466688368055555 1755890349612590848
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.14
+
+--- Sending metrics at 2025-08-22 19:19:20.628845 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890360628900352
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890360628900352
+✓ Sent to InfluxDB: load,host=trust value=0.16514756944444445 1755890360628900352
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.17
+
+--- Sending metrics at 2025-08-22 19:19:31.645216 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890371645265664
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890371645265664
+✓ Sent to InfluxDB: load,host=trust value=0.1735568576388889 1755890371645265664
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.17
+
+--- Sending metrics at 2025-08-22 19:19:42.662047 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.021 1755890382662100992
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890382662100992
+✓ Sent to InfluxDB: load,host=trust value=0.2539605034722222 1755890382662100992
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.25
+
+--- Sending metrics at 2025-08-22 19:19:53.678407 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890393678461952
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890393678461952
+✓ Sent to InfluxDB: load,host=trust value=0.2446017795138889 1755890393678461952
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.24
+
+--- Sending metrics at 2025-08-22 19:20:04.694603 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.027999999999999997 1755890404694653696
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890404694653696
+✓ Sent to InfluxDB: load,host=trust value=0.2363552517361111 1755890404694653696
+Sent metrics: CPU=0.03, Memory=0.35, Load=0.24
+
+--- Sending metrics at 2025-08-22 19:20:15.709859 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755890415709913088
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890415709913088
+✓ Sent to InfluxDB: load,host=trust value=0.2085503472222222 1755890415709913088
+Sent metrics: CPU=0.09, Memory=0.35, Load=0.21
+
+--- Sending metrics at 2025-08-22 19:20:26.724332 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.067 1755890426724371968
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890426724371968
+✓ Sent to InfluxDB: load,host=trust value=0.1850043402777778 1755890426724371968
+Sent metrics: CPU=0.07, Memory=0.34, Load=0.19
+
+--- Sending metrics at 2025-08-22 19:20:37.739081 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890437739131904
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890437739131904
+✓ Sent to InfluxDB: load,host=trust value=0.15218098958333334 1755890437739131904
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.15
+
+--- Sending metrics at 2025-08-22 19:20:48.754200 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890448754252800
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890448754252800
+✓ Sent to InfluxDB: load,host=trust value=0.1376410590277778 1755890448754252800
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.14
+
+--- Sending metrics at 2025-08-22 19:20:59.772317 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755890459772375296
+✓ Sent to InfluxDB: memory,host=trust value=0.344 1755890459772375296
+✓ Sent to InfluxDB: load,host=trust value=0.116455078125 1755890459772375296
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.12
+
+--- Sending metrics at 2025-08-22 19:21:10.788868 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890470788927232
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890470788927232
+✓ Sent to InfluxDB: load,host=trust value=0.10297309027777778 1755890470788927232
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.10
+
+--- Sending metrics at 2025-08-22 19:21:21.805457 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755890481805507584
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890481805507584
+✓ Sent to InfluxDB: load,host=trust value=0.0871310763888889 1755890481805507584
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.09
+
+--- Sending metrics at 2025-08-22 19:21:32.821564 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890492821618176
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890492821618176
+✓ Sent to InfluxDB: load,host=trust value=0.06778971354166667 1755890492821618176
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.07
+
+--- Sending metrics at 2025-08-22 19:21:43.837524 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890503837575936
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890503837575936
+✓ Sent to InfluxDB: load,host=trust value=0.057318793402777776 1755890503837575936
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.06
+
+--- Sending metrics at 2025-08-22 19:21:54.854113 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890514854163456
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890514854163456
+✓ Sent to InfluxDB: load,host=trust value=0.04847547743055555 1755890514854163456
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:22:05.870392 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890525870446336
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890525870446336
+✓ Sent to InfluxDB: load,host=trust value=0.04098849826388889 1755890525870446336
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:22:16.887994 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890536888046336
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890536888046336
+✓ Sent to InfluxDB: load,host=trust value=0.03466796875 1755890536888046336
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:22:27.975043 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755890547975096832
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890547975096832
+✓ Sent to InfluxDB: load,host=trust value=0.038275824652777776 1755890547975096832
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:22:38.992462 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890558992519936
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890558992519936
+✓ Sent to InfluxDB: load,host=trust value=0.044677734375 1755890558992519936
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:22:50.010983 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755890570011021568
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890570011021568
+✓ Sent to InfluxDB: load,host=trust value=0.037787543402777776 1755890570011021568
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:23:01.025316 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890581025347584
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890581025347584
+✓ Sent to InfluxDB: load,host=trust value=0.036431206597222224 1755890581025347584
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:23:12.039661 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890592039706624
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890592039706624
+✓ Sent to InfluxDB: load,host=trust value=0.030815972222222224 1755890592039706624
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:23:23.054493 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890603054539520
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890603054539520
+✓ Sent to InfluxDB: load,host=trust value=0.028455946180555556 1755890603054539520
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:23:34.069920 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890614070003200
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890614070003200
+✓ Sent to InfluxDB: load,host=trust value=0.024034288194444444 1755890614070003200
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:23:45.087108 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890625087158784
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890625087158784
+✓ Sent to InfluxDB: load,host=trust value=0.020317925347222224 1755890625087158784
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:23:56.099556 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.024 1755890636099607552
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890636099607552
+✓ Sent to InfluxDB: load,host=trust value=0.017171223958333332 1755890636099607552
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:24:07.110455 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08800000000000001 1755890647110507776
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890647110507776
+✓ Sent to InfluxDB: load,host=trust value=0.017116970486111112 1755890647110507776
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:24:18.124215 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.076 1755890658124254976
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890658124254976
+✓ Sent to InfluxDB: load,host=trust value=0.018934461805555556 1755890658124254976
+Sent metrics: CPU=0.08, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:24:29.140537 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755890669140590080
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890669140590080
+✓ Sent to InfluxDB: load,host=trust value=0.016004774305555556 1755890669140590080
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:24:40.155865 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755890680155912192
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890680155912192
+✓ Sent to InfluxDB: load,host=trust value=0.013509114583333334 1755890680155912192
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:24:51.172047 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890691172096512
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890691172096512
+✓ Sent to InfluxDB: load,host=trust value=0.011420355902777778 1755890691172096512
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:25:02.188306 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890702188357888
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890702188357888
+✓ Sent to InfluxDB: load,host=trust value=0.012641059027777778 1755890702188357888
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:25:13.203224 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890713203274752
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890713203274752
+✓ Sent to InfluxDB: load,host=trust value=0.014784071180555556 1755890713203274752
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:25:24.220006 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890724220055296
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890724220055296
+✓ Sent to InfluxDB: load,host=trust value=0.0166015625 1755890724220055296
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:25:35.236262 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890735236308992
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890735236308992
+✓ Sent to InfluxDB: load,host=trust value=0.018473307291666668 1755890735236308992
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:25:46.252753 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890746252806656
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890746252806656
+✓ Sent to InfluxDB: load,host=trust value=0.015597873263888888 1755890746252806656
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:25:57.268553 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890757268603648
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890757268603648
+✓ Sent to InfluxDB: load,host=trust value=0.024386935763888888 1755890757268603648
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:26:08.285937 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890768286025728
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890768286025728
+✓ Sent to InfluxDB: load,host=trust value=0.020616319444444444 1755890768286025728
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:26:19.303366 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890779303417088
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890779303417088
+✓ Sent to InfluxDB: load,host=trust value=0.017442491319444444 1755890779303417088
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:26:30.319440 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755890790319492352
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890790319492352
+✓ Sent to InfluxDB: load,host=trust value=0.014729817708333334 1755890790319492352
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:26:41.335067 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890801335119360
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890801335119360
+✓ Sent to InfluxDB: load,host=trust value=0.012451171875 1755890801335119360
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:26:52.351935 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755890812351988992
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890812351988992
+✓ Sent to InfluxDB: load,host=trust value=0.009657118055555556 1755890812351988992
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:27:03.368620 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755890823368672512
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890823368672512
+✓ Sent to InfluxDB: load,host=trust value=0.008138020833333334 1755890823368672512
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:27:14.384133 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890834384184832
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890834384184832
+✓ Sent to InfluxDB: load,host=trust value=0.0068359375 1755890834384184832
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:27:25.400866 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890845400915456
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890845400915456
+✓ Sent to InfluxDB: load,host=trust value=0.005750868055555556 1755890845400915456
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:27:36.417514 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890856417569280
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890856417569280
+✓ Sent to InfluxDB: load,host=trust value=0.004855685763888889 1755890856417569280
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:27:47.433830 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890867433882624
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890867433882624
+✓ Sent to InfluxDB: load,host=trust value=0.033881293402777776 1755890867433882624
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:27:58.447839 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.079 1755890878447893760
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890878447893760
+✓ Sent to InfluxDB: load,host=trust value=0.028645833333333332 1755890878447893760
+Sent metrics: CPU=0.08, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:28:09.467315 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.09 1755890889467355392
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890889467355392
+✓ Sent to InfluxDB: load,host=trust value=0.024224175347222224 1755890889467355392
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:28:20.483881 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755890900483931392
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890900483931392
+✓ Sent to InfluxDB: load,host=trust value=0.020480685763888888 1755890900483931392
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:28:31.498920 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755890911499004928
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890911499004928
+✓ Sent to InfluxDB: load,host=trust value=0.017306857638888888 1755890911499004928
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:28:42.515564 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755890922515615744
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890922515615744
+✓ Sent to InfluxDB: load,host=trust value=0.013427734375 1755890922515615744
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:28:53.531698 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.006999999999999999 1755890933531749376
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890933531749376
+✓ Sent to InfluxDB: load,host=trust value=0.011338975694444444 1755890933531749376
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:29:04.548430 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755890944548488192
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890944548488192
+✓ Sent to InfluxDB: load,host=trust value=0.013699001736111112 1755890944548488192
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:29:15.563918 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755890955563990784
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890955563990784
+✓ Sent to InfluxDB: load,host=trust value=0.011555989583333334 1755890955563990784
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:29:26.579495 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755890966579548416
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890966579548416
+✓ Sent to InfluxDB: load,host=trust value=0.014214409722222222 1755890966579548416
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:29:37.594119 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755890977594169600
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890977594169600
+✓ Sent to InfluxDB: load,host=trust value=0.015163845486111112 1755890977594169600
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:29:48.610760 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755890988610812928
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755890988610812928
+✓ Sent to InfluxDB: load,host=trust value=0.012803819444444444 1755890988610812928
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:29:59.625170 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755890999625225984
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755890999625225984
+✓ Sent to InfluxDB: load,host=trust value=0.010823567708333334 1755890999625225984
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:30:10.641612 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891010641666048
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891010641666048
+✓ Sent to InfluxDB: load,host=trust value=0.009141710069444444 1755891010641666048
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:30:21.658416 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891021658467840
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891021658467840
+✓ Sent to InfluxDB: load,host=trust value=0.007731119791666667 1755891021658467840
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:30:32.673667 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891032673720832
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891032673720832
+✓ Sent to InfluxDB: load,host=trust value=0.005995008680555556 1755891032673720832
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:30:43.690344 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891043690397184
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891043690397184
+✓ Sent to InfluxDB: load,host=trust value=0.005045572916666667 1755891043690397184
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:30:54.705754 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891054705812224
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891054705812224
+✓ Sent to InfluxDB: load,host=trust value=0.004258897569444444 1755891054705812224
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:31:05.721684 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891065721734912
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891065721734912
+✓ Sent to InfluxDB: load,host=trust value=0.011800130208333334 1755891065721734912
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:31:16.738590 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891076738643712
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891076738643712
+✓ Sent to InfluxDB: load,host=trust value=0.009955512152777778 1755891076738643712
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:31:27.754238 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891087754290432
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891087754290432
+✓ Sent to InfluxDB: load,host=trust value=0.007731119791666667 1755891087754290432
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:31:38.770494 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891098770549248
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891098770549248
+✓ Sent to InfluxDB: load,host=trust value=0.006537543402777778 1755891098770549248
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:31:49.786032 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.094 1755891109786087936
+✓ Sent to InfluxDB: memory,host=trust value=0.348 1755891109786087936
+✓ Sent to InfluxDB: load,host=trust value=0.005506727430555556 1755891109786087936
+Sent metrics: CPU=0.09, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:32:00.801176 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.091 1755891120801230592
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891120801230592
+✓ Sent to InfluxDB: load,host=trust value=0.004638671875 1755891120801230592
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:32:11.818175 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891131818217216
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891131818217216
+✓ Sent to InfluxDB: load,host=trust value=0.00390625 1755891131818217216
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:32:22.835460 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891142835513344
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891142835513344
+✓ Sent to InfluxDB: load,host=trust value=0.0030110677083333335 1755891142835513344
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:32:33.851927 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891153851977984
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891153851977984
+✓ Sent to InfluxDB: load,host=trust value=0.0025227864583333335 1755891153851977984
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:32:44.868397 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891164868447232
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891164868447232
+✓ Sent to InfluxDB: load,host=trust value=0.024386935763888888 1755891164868447232
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:32:55.884908 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891175885067008
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891175885067008
+✓ Sent to InfluxDB: load,host=trust value=0.020616319444444444 1755891175885067008
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:33:06.902749 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891186902803200
+✓ Sent to InfluxDB: memory,host=trust value=0.34700000000000003 1755891186902803200
+✓ Sent to InfluxDB: load,host=trust value=0.017442491319444444 1755891186902803200
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:33:17.919022 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891197919075840
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891197919075840
+✓ Sent to InfluxDB: load,host=trust value=0.013536241319444444 1755891197919075840
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:33:28.936138 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891208936193280
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891208936193280
+✓ Sent to InfluxDB: load,host=trust value=0.011447482638888888 1755891208936193280
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:33:39.952866 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755891219952921088
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891219952921088
+✓ Sent to InfluxDB: load,host=trust value=0.009657118055555556 1755891219952921088
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:33:50.969791 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891230969837312
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891230969837312
+✓ Sent to InfluxDB: load,host=trust value=0.008138020833333334 1755891230969837312
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:34:01.985453 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755891241985511680
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891241985511680
+✓ Sent to InfluxDB: load,host=trust value=0.0068359375 1755891241985511680
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:34:13.002352 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891253002388736
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891253002388736
+✓ Sent to InfluxDB: load,host=trust value=0.005289713541666667 1755891253002388736
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:34:24.017957 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891264017999872
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891264017999872
+✓ Sent to InfluxDB: load,host=trust value=0.004448784722222222 1755891264017999872
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:34:35.032079 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891275032116992
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891275032116992
+✓ Sent to InfluxDB: load,host=trust value=0.020128038194444444 1755891275032116992
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:34:46.047066 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891286047112192
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891286047112192
+✓ Sent to InfluxDB: load,host=trust value=0.021131727430555556 1755891286047112192
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:34:57.062681 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891297062742016
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891297062742016
+✓ Sent to InfluxDB: load,host=trust value=0.026448567708333332 1755891297062742016
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:35:08.079647 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891308079696128
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891308079696128
+✓ Sent to InfluxDB: load,host=trust value=0.028455946180555556 1755891308079696128
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:35:19.095771 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891319095824384
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891319095824384
+✓ Sent to InfluxDB: load,host=trust value=0.024034288194444444 1755891319095824384
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:35:30.109475 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891330109526784
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891330109526784
+✓ Sent to InfluxDB: load,host=trust value=0.020317925347222224 1755891330109526784
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:35:41.123327 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.068 1755891341123379712
+✓ Sent to InfluxDB: memory,host=trust value=0.34700000000000003 1755891341123379712
+✓ Sent to InfluxDB: load,host=trust value=0.017171223958333332 1755891341123379712
+Sent metrics: CPU=0.07, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:35:52.136432 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.09 1755891352136481280
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891352136481280
+✓ Sent to InfluxDB: load,host=trust value=0.014512803819444444 1755891352136481280
+Sent metrics: CPU=0.09, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:36:03.153293 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.031 1755891363153340160
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891363153340160
+✓ Sent to InfluxDB: load,host=trust value=0.051323784722222224 1755891363153340160
+Sent metrics: CPU=0.03, Memory=0.35, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:36:14.169017 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891374169067008
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891374169067008
+✓ Sent to InfluxDB: load,host=trust value=0.043402777777777776 1755891374169067008
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:36:25.185883 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891385185938944
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891385185938944
+✓ Sent to InfluxDB: load,host=trust value=0.036702473958333336 1755891385185938944
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:36:36.201897 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891396201999104
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891396201999104
+✓ Sent to InfluxDB: load,host=trust value=0.031032986111111112 1755891396201999104
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:36:47.218532 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891407218581248
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891407218581248
+✓ Sent to InfluxDB: load,host=trust value=0.026231553819444444 1755891407218581248
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:36:58.235508 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891418235570432
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891418235570432
+✓ Sent to InfluxDB: load,host=trust value=0.024169921875 1755891418235570432
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:37:09.252550 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891429252601088
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891429252601088
+✓ Sent to InfluxDB: load,host=trust value=0.020426432291666668 1755891429252601088
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:37:20.269011 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891440269148672
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891440269148672
+✓ Sent to InfluxDB: load,host=trust value=0.017252604166666668 1755891440269148672
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:37:31.284176 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891451284224512
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891451284224512
+✓ Sent to InfluxDB: load,host=trust value=0.014594184027777778 1755891451284224512
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:37:42.300085 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891462300137728
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891462300137728
+✓ Sent to InfluxDB: load,host=trust value=0.027804904513888888 1755891462300137728
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:37:53.316071 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891473316121088
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891473316121088
+✓ Sent to InfluxDB: load,host=trust value=0.040283203125 1755891473316121088
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:38:04.332509 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891484332563200
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891484332563200
+✓ Sent to InfluxDB: load,host=trust value=0.051567925347222224 1755891484332563200
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:38:15.349505 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891495349561344
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891495349561344
+✓ Sent to InfluxDB: load,host=trust value=0.052191840277777776 1755891495349561344
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:38:26.367417 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891506367475968
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891506367475968
+✓ Sent to InfluxDB: load,host=trust value=0.052734375 1755891506367475968
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:38:37.384604 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891517384659712
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891517384659712
+✓ Sent to InfluxDB: load,host=trust value=0.053385416666666664 1755891517384659712
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:38:48.402160 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891528402211072
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891528402211072
+✓ Sent to InfluxDB: load,host=trust value=0.049262152777777776 1755891528402211072
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:38:59.418118 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.021 1755891539418168576
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891539418168576
+✓ Sent to InfluxDB: load,host=trust value=0.046142578125 1755891539418168576
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:39:10.433931 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755891550434017024
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891550434017024
+✓ Sent to InfluxDB: load,host=trust value=0.039008246527777776 1755891550434017024
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:39:21.450347 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891561450401280
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891561450401280
+✓ Sent to InfluxDB: load,host=trust value=0.03298611111111111 1755891561450401280
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:39:32.471247 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.025 1755891572471296256
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891572471296256
+✓ Sent to InfluxDB: load,host=trust value=0.05202907986111111 1755891572471296256
+Sent metrics: CPU=0.03, Memory=0.35, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:39:43.485676 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755891583485727744
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891583485727744
+✓ Sent to InfluxDB: load,host=trust value=0.043999565972222224 1755891583485727744
+Sent metrics: CPU=0.09, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:39:54.502539 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.066 1755891594502581760
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891594502581760
+✓ Sent to InfluxDB: load,host=trust value=0.03721788194444445 1755891594502581760
+Sent metrics: CPU=0.07, Memory=0.34, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:40:05.520601 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891605520650240
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891605520650240
+✓ Sent to InfluxDB: load,host=trust value=0.03146701388888889 1755891605520650240
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:40:16.537169 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891616537219584
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891616537219584
+✓ Sent to InfluxDB: load,host=trust value=0.026611328125 1755891616537219584
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:40:27.553878 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755891627553938176
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891627553938176
+✓ Sent to InfluxDB: load,host=trust value=0.020670572916666668 1755891627553938176
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:40:38.570480 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891638570538752
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891638570538752
+✓ Sent to InfluxDB: load,host=trust value=0.017442491319444444 1755891638570538752
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:40:49.587824 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755891649587879168
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891649587879168
+✓ Sent to InfluxDB: load,host=trust value=0.014729817708333334 1755891649587879168
+Sent metrics: CPU=0.02, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:41:00.604638 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891660604689408
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891660604689408
+✓ Sent to InfluxDB: load,host=trust value=0.012451171875 1755891660604689408
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:41:11.620785 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891671620833792
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891671620833792
+✓ Sent to InfluxDB: load,host=trust value=0.019449869791666668 1755891671620833792
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:41:22.636766 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891682636823552
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891682636823552
+✓ Sent to InfluxDB: load,host=trust value=0.019232855902777776 1755891682636823552
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:41:33.652777 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891693652832000
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891693652832000
+✓ Sent to InfluxDB: load,host=trust value=0.016248914930555556 1755891693652832000
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:41:44.669688 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891704669826816
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891704669826816
+✓ Sent to InfluxDB: load,host=trust value=0.013726128472222222 1755891704669826816
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:41:55.686019 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891715686074624
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891715686074624
+✓ Sent to InfluxDB: load,host=trust value=0.011583116319444444 1755891715686074624
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:42:06.702351 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891726702409984
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891726702409984
+✓ Sent to InfluxDB: load,host=trust value=0.009765625 1755891726702409984
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:42:17.719290 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891737719342336
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891737719342336
+✓ Sent to InfluxDB: load,host=trust value=0.007568359375 1755891737719342336
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:42:28.735183 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891748735234304
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891748735234304
+✓ Sent to InfluxDB: load,host=trust value=0.006374782986111111 1755891748735234304
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:42:39.751466 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891759751519488
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891759751519488
+✓ Sent to InfluxDB: load,host=trust value=0.009847005208333334 1755891759751519488
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:42:50.767414 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891770767469312
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891770767469312
+✓ Sent to InfluxDB: load,host=trust value=0.00830078125 1755891770767469312
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:01.784814 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891781784871424
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891781784871424
+✓ Sent to InfluxDB: load,host=trust value=0.011121961805555556 1755891781784871424
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:12.802242 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755891792802293504
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891792802293504
+✓ Sent to InfluxDB: load,host=trust value=0.008626302083333334 1755891792802293504
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:23.817874 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755891803817923584
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891803817923584
+✓ Sent to InfluxDB: load,host=trust value=0.007269965277777778 1755891803817923584
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:34.833470 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08199999999999999 1755891814833519104
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891814833519104
+✓ Sent to InfluxDB: load,host=trust value=0.006130642361111111 1755891814833519104
+Sent metrics: CPU=0.08, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:45.849532 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.084 1755891825849579520
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891825849579520
+✓ Sent to InfluxDB: load,host=trust value=0.005154079861111111 1755891825849579520
+Sent metrics: CPU=0.08, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:43:56.865606 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891836865655296
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891836865655296
+✓ Sent to InfluxDB: load,host=trust value=0.004340277777777778 1755891836865655296
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:44:07.881099 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891847881149184
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891847881149184
+✓ Sent to InfluxDB: load,host=trust value=0.003363715277777778 1755891847881149184
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:44:18.897206 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891858897256704
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891858897256704
+✓ Sent to InfluxDB: load,host=trust value=0.0028211805555555555 1755891858897256704
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:44:29.913454 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.022000000000000002 1755891869913502464
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891869913502464
+✓ Sent to InfluxDB: load,host=trust value=0.020182291666666668 1755891869913502464
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:44:40.929172 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755891880929225984
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891880929225984
+✓ Sent to InfluxDB: load,host=trust value=0.017062717013888888 1755891880929225984
+Sent metrics: CPU=0.02, Memory=0.35, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:44:51.945569 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891891945618688
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891891945618688
+✓ Sent to InfluxDB: load,host=trust value=0.014404296875 1755891891945618688
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:02.963318 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891902963368192
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891902963368192
+✓ Sent to InfluxDB: load,host=trust value=0.011176215277777778 1755891902963368192
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:13.978678 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891913978730496
+✓ Sent to InfluxDB: memory,host=trust value=0.34600000000000003 1755891913978730496
+✓ Sent to InfluxDB: load,host=trust value=0.009440104166666666 1755891913978730496
+Sent metrics: CPU=0.01, Memory=0.35, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:24.993915 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891924994016512
+✓ Sent to InfluxDB: memory,host=trust value=0.345 1755891924994016512
+✓ Sent to InfluxDB: load,host=trust value=0.007975260416666666 1755891924994016512
+Sent metrics: CPU=0.01, Memory=0.34, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:36.008757 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891936008799488
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755891936008799488
+✓ Sent to InfluxDB: load,host=trust value=0.006727430555555556 1755891936008799488
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:47.024243 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755891947024283392
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755891947024283392
+✓ Sent to InfluxDB: load,host=trust value=0.005669487847222222 1755891947024283392
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:45:58.038536 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755891958038580480
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755891958038580480
+✓ Sent to InfluxDB: load,host=trust value=0.008490668402777778 1755891958038580480
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:46:09.054367 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755891969054415616
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755891969054415616
+✓ Sent to InfluxDB: load,host=trust value=0.007161458333333333 1755891969054415616
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:46:20.068435 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755891980068491008
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755891980068491008
+✓ Sent to InfluxDB: load,host=trust value=0.010145399305555556 1755891980068491008
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:46:31.084541 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755891991084581888
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755891991084581888
+✓ Sent to InfluxDB: load,host=trust value=0.008572048611111112 1755891991084581888
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:46:42.101907 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892002101997824
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892002101997824
+✓ Sent to InfluxDB: load,host=trust value=0.007215711805555556 1755892002101997824
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:46:53.117877 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892013117930240
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892013117930240
+✓ Sent to InfluxDB: load,host=trust value=0.005588107638888889 1755892013117930240
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:47:04.134830 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892024134890240
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892024134890240
+✓ Sent to InfluxDB: load,host=trust value=0.004692925347222222 1755892024134890240
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:47:15.153040 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755892035153095168
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892035153095168
+✓ Sent to InfluxDB: load,host=trust value=0.003960503472222222 1755892035153095168
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:47:26.168436 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.084 1755892046168494336
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755892046168494336
+✓ Sent to InfluxDB: load,host=trust value=0.012261284722222222 1755892046168494336
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:47:37.184979 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.071 1755892057185017856
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755892057185017856
+✓ Sent to InfluxDB: load,host=trust value=0.010335286458333334 1755892057185017856
+Sent metrics: CPU=0.07, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:47:48.200775 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755892068200822528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892068200822528
+✓ Sent to InfluxDB: load,host=trust value=0.008002387152777778 1755892068200822528
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:47:59.216278 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.02 1755892079216318976
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892079216318976
+✓ Sent to InfluxDB: load,host=trust value=0.024576822916666668 1755892079216318976
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:48:10.232027 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755892090232080384
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892090232080384
+✓ Sent to InfluxDB: load,host=trust value=0.020779079861111112 1755892090232080384
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:48:21.248341 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892101248402688
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755892101248402688
+✓ Sent to InfluxDB: load,host=trust value=0.017550998263888888 1755892101248402688
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:48:32.265030 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892112265091328
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892112265091328
+✓ Sent to InfluxDB: load,host=trust value=0.014838324652777778 1755892112265091328
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:48:43.280991 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892123281042688
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892123281042688
+✓ Sent to InfluxDB: load,host=trust value=0.011528862847222222 1755892123281042688
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:48:54.297682 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892134297741568
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892134297741568
+✓ Sent to InfluxDB: load,host=trust value=0.009711371527777778 1755892134297741568
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:49:05.312243 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755892145312291840
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892145312291840
+✓ Sent to InfluxDB: load,host=trust value=0.008192274305555556 1755892145312291840
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:49:16.328790 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892156328838912
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892156328838912
+✓ Sent to InfluxDB: load,host=trust value=0.006890190972222222 1755892156328838912
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:49:27.344714 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892167344771328
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892167344771328
+✓ Sent to InfluxDB: load,host=trust value=0.005805121527777778 1755892167344771328
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:49:38.361449 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892178361499136
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892178361499136
+✓ Sent to InfluxDB: load,host=trust value=0.004475911458333333 1755892178361499136
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:49:49.378448 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892189378496512
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892189378496512
+✓ Sent to InfluxDB: load,host=trust value=0.011962890625 1755892189378496512
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:00.395555 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892200395608320
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892200395608320
+✓ Sent to InfluxDB: load,host=trust value=0.010091145833333334 1755892200395608320
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:11.411576 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755892211411633152
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892211411633152
+✓ Sent to InfluxDB: load,host=trust value=0.008517795138888888 1755892211411633152
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:22.428469 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892222428518144
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892222428518144
+✓ Sent to InfluxDB: load,host=trust value=0.006564670138888889 1755892222428518144
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:33.444451 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755892233444590592
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892233444590592
+✓ Sent to InfluxDB: load,host=trust value=0.005533854166666667 1755892233444590592
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:44.460229 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892244460277248
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892244460277248
+✓ Sent to InfluxDB: load,host=trust value=0.008761935763888888 1755892244460277248
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:50:55.476157 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892255476206592
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892255476206592
+✓ Sent to InfluxDB: load,host=trust value=0.007405598958333333 1755892255476206592
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:51:06.493059 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892266493110272
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892266493110272
+✓ Sent to InfluxDB: load,host=trust value=0.006239149305555556 1755892266493110272
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:51:17.507786 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.085 1755892277507840256
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892277507840256
+✓ Sent to InfluxDB: load,host=trust value=0.022325303819444444 1755892277507840256
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:51:28.522572 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.09300000000000001 1755892288522618368
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892288522618368
+✓ Sent to InfluxDB: load,host=trust value=0.018880208333333332 1755892288522618368
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:51:39.539978 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.02 1755892299540021760
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892299540021760
+✓ Sent to InfluxDB: load,host=trust value=0.015950520833333332 1755892299540021760
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:51:50.557321 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755892310557377536
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892310557377536
+✓ Sent to InfluxDB: load,host=trust value=0.013454861111111112 1755892310557377536
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:52:01.573843 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892321573894656
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892321573894656
+✓ Sent to InfluxDB: load,host=trust value=0.015489366319444444 1755892321573894656
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:52:12.590536 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892332590587648
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892332590587648
+✓ Sent to InfluxDB: load,host=trust value=0.012017144097222222 1755892332590587648
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:52:23.604547 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892343604599040
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892343604599040
+✓ Sent to InfluxDB: load,host=trust value=0.010145399305555556 1755892343604599040
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:52:34.620740 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892354620790528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892354620790528
+✓ Sent to InfluxDB: load,host=trust value=0.008572048611111112 1755892354620790528
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:52:45.636809 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892365636863232
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892365636863232
+✓ Sent to InfluxDB: load,host=trust value=0.007215711805555556 1755892365636863232
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:52:56.652541 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892376652595712
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892376652595712
+✓ Sent to InfluxDB: load,host=trust value=0.006076388888888889 1755892376652595712
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:53:07.669041 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892387669091840
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892387669091840
+✓ Sent to InfluxDB: load,host=trust value=0.008816189236111112 1755892387669091840
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:53:18.685762 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892398685814528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892398685814528
+✓ Sent to InfluxDB: load,host=trust value=0.007432725694444444 1755892398685814528
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:53:29.703229 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755892409703282688
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892409703282688
+✓ Sent to InfluxDB: load,host=trust value=0.006266276041666667 1755892409703282688
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:53:40.719242 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892420719293440
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892420719293440
+✓ Sent to InfluxDB: load,host=trust value=0.009385850694444444 1755892420719293440
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:53:51.737076 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892431737129728
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892431737129728
+✓ Sent to InfluxDB: load,host=trust value=0.007921006944444444 1755892431737129728
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:54:02.754347 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892442754398720
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892442754398720
+✓ Sent to InfluxDB: load,host=trust value=0.006130642361111111 1755892442754398720
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:54:13.771045 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892453771098368
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892453771098368
+✓ Sent to InfluxDB: load,host=trust value=0.005154079861111111 1755892453771098368
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:54:24.787312 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892464787362048
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892464787362048
+✓ Sent to InfluxDB: load,host=trust value=0.004340277777777778 1755892464787362048
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:54:35.803407 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892475803455232
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892475803455232
+✓ Sent to InfluxDB: load,host=trust value=0.003662109375 1755892475803455232
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:54:46.820064 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892486820114176
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892486820114176
+✓ Sent to InfluxDB: load,host=trust value=0.0030924479166666665 1755892486820114176
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:54:57.836912 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892497836992512
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892497836992512
+✓ Sent to InfluxDB: load,host=trust value=0.0023600260416666665 1755892497836992512
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:55:08.854335 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.061 1755892508854390016
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755892508854390016
+✓ Sent to InfluxDB: load,host=trust value=0.001980251736111111 1755892508854390016
+Sent metrics: CPU=0.06, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:55:19.868546 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.09 1755892519868598528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892519868598528
+✓ Sent to InfluxDB: load,host=trust value=0.0016547309027777778 1755892519868598528
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:55:30.884608 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.032 1755892530884645888
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892530884645888
+✓ Sent to InfluxDB: load,host=trust value=0.0013834635416666667 1755892530884645888
+Sent metrics: CPU=0.03, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:55:41.900994 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892541901051648
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892541901051648
+✓ Sent to InfluxDB: load,host=trust value=0.0011393229166666667 1755892541901051648
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 19:55:52.917051 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892552917106176
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892552917106176
+✓ Sent to InfluxDB: load,host=trust value=0.009440104166666666 1755892552917106176
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:56:03.933900 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892563933975040
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892563933975040
+✓ Sent to InfluxDB: load,host=trust value=0.007975260416666666 1755892563933975040
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:56:14.951560 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892574951617536
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892574951617536
+✓ Sent to InfluxDB: load,host=trust value=0.006727430555555556 1755892574951617536
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 19:56:25.968209 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892585968260096
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892585968260096
+✓ Sent to InfluxDB: load,host=trust value=0.032389322916666664 1755892585968260096
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:56:36.984662 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892596984711168
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892596984711168
+✓ Sent to InfluxDB: load,host=trust value=0.035970052083333336 1755892596984711168
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:56:48.001601 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892608001648896
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892608001648896
+✓ Sent to InfluxDB: load,host=trust value=0.040337456597222224 1755892608001648896
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:56:59.017652 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755892619017697536
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892619017697536
+✓ Sent to InfluxDB: load,host=trust value=0.04269748263888889 1755892619017697536
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:57:10.030068 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892630030112256
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892630030112256
+✓ Sent to InfluxDB: load,host=trust value=0.044677734375 1755892630030112256
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:57:21.043765 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892641043794176
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892641043794176
+✓ Sent to InfluxDB: load,host=trust value=0.04638671875 1755892641043794176
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:57:32.131001 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892652131054592
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892652131054592
+✓ Sent to InfluxDB: load,host=trust value=0.047444661458333336 1755892652131054592
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:57:43.147888 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892663147975424
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892663147975424
+✓ Sent to InfluxDB: load,host=trust value=0.053385416666666664 1755892663147975424
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:57:54.161305 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755892674161355776
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892674161355776
+✓ Sent to InfluxDB: load,host=trust value=0.045166015625 1755892674161355776
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:58:05.178345 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892685178398208
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892685178398208
+✓ Sent to InfluxDB: load,host=trust value=0.046793619791666664 1755892685178398208
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:58:16.195580 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892696195627264
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892696195627264
+✓ Sent to InfluxDB: load,host=trust value=0.05186631944444445 1755892696195627264
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:58:27.271745 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892707271799808
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892707271799808
+✓ Sent to InfluxDB: load,host=trust value=0.04798719618055555 1755892707271799808
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.05
+
+--- Sending metrics at 2025-08-22 19:58:38.288589 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892718288642304
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892718288642304
+✓ Sent to InfluxDB: load,host=trust value=0.041422526041666664 1755892718288642304
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:58:49.301777 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755892729301826560
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892729301826560
+✓ Sent to InfluxDB: load,host=trust value=0.039143880208333336 1755892729301826560
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:59:00.319004 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.081 1755892740319053312
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755892740319053312
+✓ Sent to InfluxDB: load,host=trust value=0.041693793402777776 1755892740319053312
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:59:11.335031 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755892751335083776
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755892751335083776
+✓ Sent to InfluxDB: load,host=trust value=0.035237630208333336 1755892751335083776
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 19:59:22.351825 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755892762351865856
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892762351865856
+✓ Sent to InfluxDB: load,host=trust value=0.02978515625 1755892762351865856
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 19:59:33.368447 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892773368498176
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892773368498176
+✓ Sent to InfluxDB: load,host=trust value=0.023166232638888888 1755892773368498176
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:59:44.384444 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892784384502784
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892784384502784
+✓ Sent to InfluxDB: load,host=trust value=0.019585503472222224 1755892784384502784
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 19:59:55.401146 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892795401200640
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892795401200640
+✓ Sent to InfluxDB: load,host=trust value=0.021023220486111112 1755892795401200640
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:00:06.418635 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892806418685440
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892806418685440
+✓ Sent to InfluxDB: load,host=trust value=0.017740885416666668 1755892806418685440
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:00:17.435703 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892817435752960
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892817435752960
+✓ Sent to InfluxDB: load,host=trust value=0.014973958333333334 1755892817435752960
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:00:28.452465 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755892828452525568
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892828452525568
+✓ Sent to InfluxDB: load,host=trust value=0.011610243055555556 1755892828452525568
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:00:39.473732 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892839473793792
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892839473793792
+✓ Sent to InfluxDB: load,host=trust value=0.009792751736111112 1755892839473793792
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:00:50.489725 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755892850489777408
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755892850489777408
+✓ Sent to InfluxDB: load,host=trust value=0.008273654513888888 1755892850489777408
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:01:01.506784 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755892861506838784
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892861506838784
+✓ Sent to InfluxDB: load,host=trust value=0.015190972222222222 1755892861506838784
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:01:12.520242 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892872520293632
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892872520293632
+✓ Sent to InfluxDB: load,host=trust value=0.012830946180555556 1755892872520293632
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:01:23.536625 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892883536676096
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892883536676096
+✓ Sent to InfluxDB: load,host=trust value=0.009955512152777778 1755892883536676096
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:01:34.554379 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755892894554434816
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892894554434816
+✓ Sent to InfluxDB: load,host=trust value=0.012505425347222222 1755892894554434816
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:01:45.571812 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892905571869440
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892905571869440
+✓ Sent to InfluxDB: load,host=trust value=0.014675564236111112 1755892905571869440
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:01:56.588917 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892916588992256
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892916588992256
+✓ Sent to InfluxDB: load,host=trust value=0.012396918402777778 1755892916588992256
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:02:07.664593 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755892927664644352
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892927664644352
+✓ Sent to InfluxDB: load,host=trust value=0.022650824652777776 1755892927664644352
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:02:18.740298 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755892938740349440
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892938740349440
+✓ Sent to InfluxDB: load,host=trust value=0.019151475694444444 1755892938740349440
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:02:29.803571 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755892949803621120
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892949803621120
+✓ Sent to InfluxDB: load,host=trust value=0.020670572916666668 1755892949803621120
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:02:40.818981 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755892960819030272
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892960819030272
+✓ Sent to InfluxDB: load,host=trust value=0.021918402777777776 1755892960819030272
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:02:51.835987 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08199999999999999 1755892971836040704
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892971836040704
+✓ Sent to InfluxDB: load,host=trust value=0.018527560763888888 1755892971836040704
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:03:02.851834 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.083 1755892982851881984
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892982851881984
+✓ Sent to InfluxDB: load,host=trust value=0.022976345486111112 1755892982851881984
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:03:13.868569 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755892993868622080
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755892993868622080
+✓ Sent to InfluxDB: load,host=trust value=0.03724500868055555 1755892993868622080
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 20:03:24.884888 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893004884942080
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893004884942080
+✓ Sent to InfluxDB: load,host=trust value=0.031494140625 1755893004884942080
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:03:35.900252 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893015900305408
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893015900305408
+✓ Sent to InfluxDB: load,host=trust value=0.026638454861111112 1755893015900305408
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:03:46.914310 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893026914361088
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893026914361088
+✓ Sent to InfluxDB: load,host=trust value=0.022515190972222224 1755893026914361088
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:03:57.930353 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755893037930408448
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893037930408448
+✓ Sent to InfluxDB: load,host=trust value=0.021945529513888888 1755893037930408448
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:04:08.946660 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893048946708992
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893048946708992
+✓ Sent to InfluxDB: load,host=trust value=0.0185546875 1755893048946708992
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:04:19.962919 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755893059962998272
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893059962998272
+✓ Sent to InfluxDB: load,host=trust value=0.019802517361111112 1755893059962998272
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:04:30.979563 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755893070979620352
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893070979620352
+✓ Sent to InfluxDB: load,host=trust value=0.016737196180555556 1755893070979620352
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:04:41.996806 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893081996858368
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893081996858368
+✓ Sent to InfluxDB: load,host=trust value=0.014133029513888888 1755893081996858368
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:04:53.012444 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893093012491008
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893093012491008
+✓ Sent to InfluxDB: load,host=trust value=0.010959201388888888 1755893093012491008
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:05:04.027450 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893104027488768
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893104027488768
+✓ Sent to InfluxDB: load,host=trust value=0.013373480902777778 1755893104027488768
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:05:15.040414 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893115040458752
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893115040458752
+✓ Sent to InfluxDB: load,host=trust value=0.020209418402777776 1755893115040458752
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:05:26.055544 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893126055600896
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893126055600896
+✓ Sent to InfluxDB: load,host=trust value=0.01708984375 1755893126055600896
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:05:37.070577 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893137070622976
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893137070622976
+✓ Sent to InfluxDB: load,host=trust value=0.014431423611111112 1755893137070622976
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:05:48.086917 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893148086999552
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893148086999552
+✓ Sent to InfluxDB: load,host=trust value=0.011203342013888888 1755893148086999552
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:05:59.103337 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.02 1755893159103387904
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893159103387904
+✓ Sent to InfluxDB: load,host=trust value=0.009440104166666666 1755893159103387904
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:06:10.119225 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893170119275520
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893170119275520
+✓ Sent to InfluxDB: load,host=trust value=0.020263671875 1755893170119275520
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:06:21.135418 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893181135470592
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893181135470592
+✓ Sent to InfluxDB: load,host=trust value=0.017116970486111112 1755893181135470592
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:06:32.151808 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755893192151855360
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893192151855360
+✓ Sent to InfluxDB: load,host=trust value=0.014458550347222222 1755893192151855360
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:06:43.169150 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08199999999999999 1755893203169204480
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755893203169204480
+✓ Sent to InfluxDB: load,host=trust value=0.018771701388888888 1755893203169204480
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:06:54.185861 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.081 1755893214185912320
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893214185912320
+✓ Sent to InfluxDB: load,host=trust value=0.015869140625 1755893214185912320
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:07:05.203249 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755893225203298304
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893225203298304
+✓ Sent to InfluxDB: load,host=trust value=0.013400607638888888 1755893225203298304
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:07:16.218556 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893236218607872
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893236218607872
+✓ Sent to InfluxDB: load,host=trust value=0.011311848958333334 1755893236218607872
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:07:27.233778 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755893247233837056
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893247233837056
+✓ Sent to InfluxDB: load,host=trust value=0.009548611111111112 1755893247233837056
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:07:38.250633 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893258250672896
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893258250672896
+✓ Sent to InfluxDB: load,host=trust value=0.007405598958333333 1755893258250672896
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:07:49.266715 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.02 1755893269266776320
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893269266776320
+✓ Sent to InfluxDB: load,host=trust value=0.006239149305555556 1755893269266776320
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:08:00.284165 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893280284217344
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893280284217344
+✓ Sent to InfluxDB: load,host=trust value=0.009738498263888888 1755893280284217344
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:08:11.301210 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893291301263616
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893291301263616
+✓ Sent to InfluxDB: load,host=trust value=0.008219401041666666 1755893291301263616
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:08:22.317787 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893302317839872
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893302317839872
+✓ Sent to InfluxDB: load,host=trust value=0.020290798611111112 1755893302317839872
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:08:33.333688 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893313333735680
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893313333735680
+✓ Sent to InfluxDB: load,host=trust value=0.015760633680555556 1755893313333735680
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:08:44.350793 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893324350843648
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893324350843648
+✓ Sent to InfluxDB: load,host=trust value=0.013319227430555556 1755893324350843648
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:08:55.364739 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755893335364794880
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893335364794880
+✓ Sent to InfluxDB: load,host=trust value=0.015706380208333332 1755893335364794880
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:09:06.379235 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893346379286784
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893346379286784
+✓ Sent to InfluxDB: load,host=trust value=0.017740885416666668 1755893346379286784
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:09:17.395918 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893357395979776
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893357395979776
+✓ Sent to InfluxDB: load,host=trust value=0.014973958333333334 1755893357395979776
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:09:28.412519 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893368412569344
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893368412569344
+✓ Sent to InfluxDB: load,host=trust value=0.015733506944444444 1755893368412569344
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:09:39.429345 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755893379429395456
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893379429395456
+✓ Sent to InfluxDB: load,host=trust value=0.013292100694444444 1755893379429395456
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:09:50.447288 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893390447340032
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893390447340032
+✓ Sent to InfluxDB: load,host=trust value=0.015679253472222224 1755893390447340032
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:10:01.466435 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893401466487808
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893401466487808
+✓ Sent to InfluxDB: load,host=trust value=0.013237847222222222 1755893401466487808
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:10:12.481939 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893412482002688
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893412482002688
+✓ Sent to InfluxDB: load,host=trust value=0.011176215277777778 1755893412482002688
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:10:23.498470 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893423498537472
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893423498537472
+✓ Sent to InfluxDB: load,host=trust value=0.016872829861111112 1755893423498537472
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:10:34.515261 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08199999999999999 1755893434515317248
+✓ Sent to InfluxDB: memory,host=trust value=0.36200000000000004 1755893434515317248
+✓ Sent to InfluxDB: load,host=trust value=0.014268663194444444 1755893434515317248
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:10:45.530535 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08800000000000001 1755893445530597376
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893445530597376
+✓ Sent to InfluxDB: load,host=trust value=0.012044270833333334 1755893445530597376
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:10:56.547559 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755893456547599360
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893456547599360
+✓ Sent to InfluxDB: load,host=trust value=0.010172526041666666 1755893456547599360
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:11:07.564829 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755893467564882688
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893467564882688
+✓ Sent to InfluxDB: load,host=trust value=0.008572048611111112 1755893467564882688
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:11:18.581561 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893478581613056
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893478581613056
+✓ Sent to InfluxDB: load,host=trust value=0.010416666666666666 1755893478581613056
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:11:29.598684 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755893489598735104
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893489598735104
+✓ Sent to InfluxDB: load,host=trust value=0.0087890625 1755893489598735104
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:11:40.615649 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893500615703552
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893500615703552
+✓ Sent to InfluxDB: load,host=trust value=0.016357421875 1755893500615703552
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:11:51.631411 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893511631462400
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893511631462400
+✓ Sent to InfluxDB: load,host=trust value=0.018283420138888888 1755893511631462400
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:12:02.649823 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893522649873152
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893522649873152
+✓ Sent to InfluxDB: load,host=trust value=0.015462239583333334 1755893522649873152
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:12:13.665933 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893533666000640
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893533666000640
+✓ Sent to InfluxDB: load,host=trust value=0.012017144097222222 1755893533666000640
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:12:24.683222 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893544683281920
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893544683281920
+✓ Sent to InfluxDB: load,host=trust value=0.010145399305555556 1755893544683281920
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:12:35.700368 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893555700415232
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893555700415232
+✓ Sent to InfluxDB: load,host=trust value=0.008572048611111112 1755893555700415232
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:12:46.716764 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893566716816896
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893566716816896
+✓ Sent to InfluxDB: load,host=trust value=0.007215711805555556 1755893566716816896
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:12:57.733025 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893577733071872
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893577733071872
+✓ Sent to InfluxDB: load,host=trust value=0.005588107638888889 1755893577733071872
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:13:08.807917 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893588807983616
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893588807983616
+✓ Sent to InfluxDB: load,host=trust value=0.004692925347222222 1755893588807983616
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 20:13:19.824303 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013999999999999999 1755893599824357632
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893599824357632
+✓ Sent to InfluxDB: load,host=trust value=0.003960503472222222 1755893599824357632
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 20:13:30.839874 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755893610839924736
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893610839924736
+✓ Sent to InfluxDB: load,host=trust value=0.03610568576388889 1755893610839924736
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 20:13:41.856890 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893621856970496
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893621856970496
+✓ Sent to InfluxDB: load,host=trust value=0.030517578125 1755893621856970496
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:13:52.873809 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893632873861632
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893632873861632
+✓ Sent to InfluxDB: load,host=trust value=0.023708767361111112 1755893632873861632
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:14:03.948810 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893643948868352
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893643948868352
+✓ Sent to InfluxDB: load,host=trust value=0.024169921875 1755893643948868352
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:14:14.965611 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893654965666816
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893654965666816
+✓ Sent to InfluxDB: load,host=trust value=0.020426432291666668 1755893654965666816
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:14:25.984237 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.092 1755893665984289792
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893665984289792
+✓ Sent to InfluxDB: load,host=trust value=0.017252604166666668 1755893665984289792
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:14:36.998439 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08 1755893676998484224
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893676998484224
+✓ Sent to InfluxDB: load,host=trust value=0.014594184027777778 1755893676998484224
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:14:48.014849 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893688014887424
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893688014887424
+✓ Sent to InfluxDB: load,host=trust value=0.015109592013888888 1755893688014887424
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:14:59.029147 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755893699029196288
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893699029196288
+✓ Sent to InfluxDB: load,host=trust value=0.012776692708333334 1755893699029196288
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:15:10.042452 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.016 1755893710042494720
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893710042494720
+✓ Sent to InfluxDB: load,host=trust value=0.037190755208333336 1755893710042494720
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.04
+
+--- Sending metrics at 2025-08-22 20:15:21.057701 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893721057742080
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893721057742080
+✓ Sent to InfluxDB: load,host=trust value=0.03146701388888889 1755893721057742080
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:15:32.074931 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893732075013632
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893732075013632
+✓ Sent to InfluxDB: load,host=trust value=0.026611328125 1755893732075013632
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:15:43.091236 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893743091275520
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893743091275520
+✓ Sent to InfluxDB: load,host=trust value=0.020670572916666668 1755893743091275520
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:15:54.106472 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893754106523648
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755893754106523648
+✓ Sent to InfluxDB: load,host=trust value=0.017442491319444444 1755893754106523648
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:16:05.122664 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893765122718208
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893765122718208
+✓ Sent to InfluxDB: load,host=trust value=0.014729817708333334 1755893765122718208
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:16:16.138124 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893776138173696
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893776138173696
+✓ Sent to InfluxDB: load,host=trust value=0.012451171875 1755893776138173696
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:16:27.154355 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893787154407680
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893787154407680
+✓ Sent to InfluxDB: load,host=trust value=0.010525173611111112 1755893787154407680
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:16:38.168920 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755893798168984064
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893798168984064
+✓ Sent to InfluxDB: load,host=trust value=0.008138020833333334 1755893798168984064
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:16:49.185272 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755893809185321984
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893809185321984
+✓ Sent to InfluxDB: load,host=trust value=0.0068359375 1755893809185321984
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:00.197622 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755893820197665536
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893820197665536
+✓ Sent to InfluxDB: load,host=trust value=0.013970269097222222 1755893820197665536
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:11.211247 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755893831211295232
+✓ Sent to InfluxDB: memory,host=trust value=0.358 1755893831211295232
+✓ Sent to InfluxDB: load,host=trust value=0.011800130208333334 1755893831211295232
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:22.226469 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893842226518528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893842226518528
+✓ Sent to InfluxDB: load,host=trust value=0.014078776041666666 1755893842226518528
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:33.243731 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755893853243780352
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893853243780352
+✓ Sent to InfluxDB: load,host=trust value=0.010904947916666666 1755893853243780352
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:44.259797 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893864259846656
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893864259846656
+✓ Sent to InfluxDB: load,host=trust value=0.009195963541666666 1755893864259846656
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:17:55.275740 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893875275794176
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893875275794176
+✓ Sent to InfluxDB: load,host=trust value=0.012234157986111112 1755893875275794176
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:18:06.288376 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893886288414720
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893886288414720
+✓ Sent to InfluxDB: load,host=trust value=0.010308159722222222 1755893886288414720
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:18:17.304281 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.09 1755893897304326144
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755893897304326144
+✓ Sent to InfluxDB: load,host=trust value=0.008707682291666666 1755893897304326144
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:18:28.318523 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.078 1755893908318580480
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893908318580480
+✓ Sent to InfluxDB: load,host=trust value=0.01123046875 1755893908318580480
+Sent metrics: CPU=0.08, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:18:39.333432 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.023 1755893919333475584
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893919333475584
+✓ Sent to InfluxDB: load,host=trust value=0.009467230902777778 1755893919333475584
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:18:50.350304 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755893930350355712
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893930350355712
+✓ Sent to InfluxDB: load,host=trust value=0.008002387152777778 1755893930350355712
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:01.367477 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893941367534592
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893941367534592
+✓ Sent to InfluxDB: load,host=trust value=0.006754557291666667 1755893941367534592
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:12.384174 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893952384225280
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893952384225280
+✓ Sent to InfluxDB: load,host=trust value=0.005696614583333333 1755893952384225280
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:23.399994 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893963400046080
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893963400046080
+✓ Sent to InfluxDB: load,host=trust value=0.008517795138888888 1755893963400046080
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:34.416113 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755893974416166144
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893974416166144
+✓ Sent to InfluxDB: load,host=trust value=0.007161458333333333 1755893974416166144
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:45.432511 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.01 1755893985432567808
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893985432567808
+✓ Sent to InfluxDB: load,host=trust value=0.006022135416666667 1755893985432567808
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:19:56.448589 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755893996448638464
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755893996448638464
+✓ Sent to InfluxDB: load,host=trust value=0.005072699652777778 1755893996448638464
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:20:07.466579 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894007466626304
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894007466626304
+✓ Sent to InfluxDB: load,host=trust value=0.004286024305555556 1755894007466626304
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.00
+
+--- Sending metrics at 2025-08-22 20:20:18.482995 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894018483046656
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894018483046656
+✓ Sent to InfluxDB: load,host=trust value=0.027886284722222224 1755894018483046656
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:20:29.500341 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.019 1755894029500393472
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894029500393472
+✓ Sent to InfluxDB: load,host=trust value=0.023573133680555556 1755894029500393472
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:20:40.516468 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755894040516514048
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894040516514048
+✓ Sent to InfluxDB: load,host=trust value=0.019938151041666668 1755894040516514048
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:20:51.533761 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755894051533817856
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894051533817856
+✓ Sent to InfluxDB: load,host=trust value=0.016845703125 1755894051533817856
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:21:02.550839 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755894062550895360
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894062550895360
+✓ Sent to InfluxDB: load,host=trust value=0.014241536458333334 1755894062550895360
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:21:13.568269 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755894073568324096
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894073568324096
+✓ Sent to InfluxDB: load,host=trust value=0.011040581597222222 1755894073568324096
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:21:24.642874 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894084642931456
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894084642931456
+✓ Sent to InfluxDB: load,host=trust value=0.009331597222222222 1755894084642931456
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:21:35.659353 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894095659407104
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894095659407104
+✓ Sent to InfluxDB: load,host=trust value=0.007866753472222222 1755894095659407104
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:21:46.676750 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755894106676799488
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894106676799488
+✓ Sent to InfluxDB: load,host=trust value=0.011094835069444444 1755894106676799488
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:21:57.690517 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755894117690571776
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894117690571776
+✓ Sent to InfluxDB: load,host=trust value=0.009358723958333334 1755894117690571776
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:22:08.707541 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.086 1755894128707589888
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755894128707589888
+✓ Sent to InfluxDB: load,host=trust value=0.011040581597222222 1755894128707589888
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:22:19.718846 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08800000000000001 1755894139718900992
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894139718900992
+✓ Sent to InfluxDB: load,host=trust value=0.009331597222222222 1755894139718900992
+Sent metrics: CPU=0.09, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:22:30.735204 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.021 1755894150735250944
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894150735250944
+✓ Sent to InfluxDB: load,host=trust value=0.007866753472222222 1755894150735250944
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:22:41.752054 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894161752107776
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894161752107776
+✓ Sent to InfluxDB: load,host=trust value=0.028889973958333332 1755894161752107776
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:22:52.766336 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894172766391552
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894172766391552
+✓ Sent to InfluxDB: load,host=trust value=0.0244140625 1755894172766391552
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:23:03.782718 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755894183782769408
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894183782769408
+✓ Sent to InfluxDB: load,host=trust value=0.022732204861111112 1755894183782769408
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:23:14.799330 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755894194799385088
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894194799385088
+✓ Sent to InfluxDB: load,host=trust value=0.023328993055555556 1755894194799385088
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:23:25.815644 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755894205815703296
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894205815703296
+✓ Sent to InfluxDB: load,host=trust value=0.019721137152777776 1755894205815703296
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:23:36.832991 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894216833041664
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894216833041664
+✓ Sent to InfluxDB: load,host=trust value=0.030029296875 1755894216833041664
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:23:47.899313 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.009000000000000001 1755894227899373056
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894227899373056
+✓ Sent to InfluxDB: load,host=trust value=0.023356119791666668 1755894227899373056
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:23:58.916392 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.011000000000000001 1755894238916443392
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894238916443392
+✓ Sent to InfluxDB: load,host=trust value=0.019748263888888888 1755894238916443392
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:24:09.933281 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.017 1755894249933334528
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894249933334528
+✓ Sent to InfluxDB: load,host=trust value=0.021158854166666668 1755894249933334528
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:24:20.949767 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.018000000000000002 1755894260949819904
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894260949819904
+✓ Sent to InfluxDB: load,host=trust value=0.017876519097222224 1755894260949819904
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:24:31.967141 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.012 1755894271967191552
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894271967191552
+✓ Sent to InfluxDB: load,host=trust value=0.015109592013888888 1755894271967191552
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:24:42.984170 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755894282984224512
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894282984224512
+✓ Sent to InfluxDB: load,host=trust value=0.011745876736111112 1755894282984224512
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:24:54.001200 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.013000000000000001 1755894294001259008
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894294001259008
+✓ Sent to InfluxDB: load,host=trust value=0.009928385416666666 1755894294001259008
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:25:05.018346 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.038 1755894305018390016
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894305018390016
+✓ Sent to InfluxDB: load,host=trust value=0.012858072916666666 1755894305018390016
+Sent metrics: CPU=0.04, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:25:16.032892 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.008 1755894316032933888
+✓ Sent to InfluxDB: memory,host=trust value=0.359 1755894316032933888
+✓ Sent to InfluxDB: load,host=trust value=0.010877821180555556 1755894316032933888
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.01
+
+--- Sending metrics at 2025-08-22 20:25:27.047122 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.02 1755894327047164416
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894327047164416
+✓ Sent to InfluxDB: load,host=trust value=0.025553385416666668 1755894327047164416
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:25:38.063033 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.015 1755894338063087616
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894338063087616
+✓ Sent to InfluxDB: load,host=trust value=0.019856770833333332 1755894338063087616
+Sent metrics: CPU=0.01, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:25:49.079640 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.021 1755894349079692544
+✓ Sent to InfluxDB: memory,host=trust value=0.36 1755894349079692544
+✓ Sent to InfluxDB: load,host=trust value=0.016791449652777776 1755894349079692544
+Sent metrics: CPU=0.02, Memory=0.36, Load=0.02
+
+--- Sending metrics at 2025-08-22 20:26:00.096354 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.11800000000000001 1755894360096400896
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755894360096400896
+✓ Sent to InfluxDB: load,host=trust value=0.03466796875 1755894360096400896
+Sent metrics: CPU=0.12, Memory=0.36, Load=0.03
+
+--- Sending metrics at 2025-08-22 20:26:11.109825 ---
+✓ Sent to InfluxDB: cpu,host=trust value=0.08800000000000001 1755894371109865472
+✓ Sent to InfluxDB: memory,host=trust value=0.361 1755894371109865472

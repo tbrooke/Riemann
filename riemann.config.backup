@@ -1,0 +1,137 @@
+; -*- mode: clojure; -*-
+; vim: filetype=clojure
+
+(logging/init {:file "/var/log/riemann/riemann.log" :console true})
+
+; Listen on the local interface over TCP (5555), UDP (5555), and websockets (5556)
+(let [host "0.0.0.0"]
+  (tcp-server {:host host})
+  (udp-server {:host host})
+  (ws-server  {:host host}))
+
+; REPL server for interactive debugging
+(repl-server {:host "0.0.0.0"})
+
+; Expire old events from the index every 5 seconds.
+(periodically-expire 5)
+
+; === HELPER FUNCTIONS ===
+(defn email-alert [to]
+  "Send email alerts (placeholder - configure SMTP)"
+  (fn [event]
+    (info "EMAIL ALERT to" to ":" (:service event) (:host event) (:metric event))))
+
+; Keep events in the index for 60 seconds by default.
+(let [index (index)]
+  
+  ; Inbound events will be passed to these streams:
+  (streams
+    (default :ttl 60
+      
+      ; Log all events to see what's coming in
+      #(info "Event:" (:service %) (:metric %) (:host %))
+      
+      ; Index all events
+      index
+      
+      ; === SYSTEM MONITORING ===
+      
+      ; CPU Usage alerts
+      (where (and (service "cpu")
+                  (> metric 0.8))
+        #(warn "High CPU usage:" (:host %) (:metric %))
+        (email-alert "admin@trustblocks.com"))
+      
+      ; Memory usage alerts  
+      (where (and (service "memory")
+                  (> metric 0.85))
+        #(warn "High memory usage:" (:host %) (:metric %))
+        (email-alert "admin@trustblocks.com"))
+      
+      ; Disk usage alerts
+      (where (and (service #"disk.*")
+                  (> metric 0.9))
+        #(warn "High disk usage:" (:host %) (:service %) (:metric %))
+        (email-alert "admin@trustblocks.com"))
+      
+      ; Load average alerts (per core)
+      (where (and (service "load")
+                  (> metric 2.0))
+        #(warn "High load average:" (:host %) (:metric %))
+        (email-alert "admin@trustblocks.com"))
+      
+      ; === SERVICE MONITORING ===
+      
+      ; PostgreSQL monitoring
+      (where (service #"postgres.*")
+        (by [:host :service]
+          (coalesce 2
+            ; Alert if PostgreSQL goes down
+            (where (state "down")
+              #(error "PostgreSQL is down:" (:host %))
+              (email-alert "admin@trustblocks.com"))
+            
+            ; Monitor connection count
+            (where (and (service "postgres connections")
+                        (> metric 80))
+              #(warn "High PostgreSQL connections:" (:host %) (:metric %))))))
+      
+      ; Alfresco monitoring
+      (where (service #"alfresco.*")
+        (by [:host :service]
+          (coalesce 2
+            ; Alert if Alfresco goes down
+            (where (state "down")
+              #(error "Alfresco is down:" (:host %))
+              (email-alert "admin@trustblocks.com"))
+            
+            ; Monitor response time
+            (where (and (service "alfresco response-time")
+                        (> metric 5000))
+              #(warn "Slow Alfresco response:" (:host %) (:metric %) "ms")))))
+      
+      ; Docker container monitoring
+      (where (service #"docker.*")
+        (by [:host :service]
+          (coalesce 2
+            ; Alert if containers go down
+            (where (state "down")
+              #(error "Container is down:" (:host %) (:service %))
+              (email-alert "admin@trustblocks.com")))))
+      
+      ; GraphRAG/LLM monitoring
+      (where (service #"llm.*|ollama.*|graphrag.*")
+        (by [:host :service]
+          (coalesce 2
+            ; Monitor LLM memory usage
+            (where (and (service #".*memory.*")
+                        (> metric 8000000000)) ; 8GB in bytes
+              #(warn "High LLM memory usage:" (:host %) (:service %) (:metric %)))
+            
+            ; Monitor LLM response times
+            (where (and (service #".*response-time.*")
+                        (> metric 30000)) ; 30 seconds
+              #(warn "Slow LLM response:" (:host %) (:service %) (:metric %) "ms")))))
+      
+      ; === RATE CALCULATIONS ===
+      
+      ; Calculate rates for various metrics
+      (where (service #"requests|transactions|queries")
+        (by [:host :service]
+          (rate 5
+            (with :service (str (:service event) " rate")
+              index))))
+      
+      ; === AGGREGATIONS ===
+      
+      ; System-wide CPU average
+      (where (service "cpu")
+        (by :service
+          (coalesce 5
+            (smap folds/mean
+              (with {:service "cpu average" :host "cluster"}
+                index)))))
+      
+      ; === EXPIRED EVENTS ===
+      (expired
+        #(info "Event expired:" (:service %) (:host %))))))

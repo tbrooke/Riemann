@@ -1,0 +1,164 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Riemann System Monitoring",
+    "tags": ["riemann", "system", "monitoring"],
+    "timezone": "browser",
+    "refresh": "10s",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "panels": [
+      {
+        "id": 1,
+        "title": "CPU Usage",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 6, "x": 0, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 70},
+                {"color": "red", "value": 90}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Memory Usage",
+        "type": "stat", 
+        "gridPos": {"h": 8, "w": 6, "x": 6, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"memory\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 80},
+                {"color": "red", "value": 95}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Load Average",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 6, "x": 12, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"load\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "min": 0,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 1.5},
+                {"color": "red", "value": 2.5}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "System Metrics Over Time",
+        "type": "timeseries",
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "CPU %",
+            "refId": "A"
+          },
+          {
+            "datasource": "InfluxDB-Riemann", 
+            "query": "SELECT mean(\"value\") FROM \"memory\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "Memory %",
+            "refId": "B"
+          },
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"load\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "Load Average",
+            "refId": "C"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Service Status",
+        "type": "table",
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT \"host\", \"service\", \"state\", \"metric\" FROM /.*status/ WHERE $timeFilter ORDER BY time DESC LIMIT 20",
+            "refId": "A"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Recent Events",
+        "type": "logs",
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT \"service\", \"host\", \"metric\", \"state\" FROM /./ WHERE $timeFilter ORDER BY time DESC LIMIT 50",
+            "refId": "A"
+          }
+        ]
+      }
+    ]
+  },
+  "overwrite": false
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Riemann Health Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=tmb
+ExecStart=/usr/local/bin/riemann-health --host localhost --interval 10
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

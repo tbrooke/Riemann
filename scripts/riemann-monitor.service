@@ -1,0 +1,14 @@
+[Unit]
+Description=Riemann System Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=tmb
+WorkingDirectory=/home/tmb/riemann
+ExecStart=/usr/bin/python3 /home/tmb/riemann/scripts/system-monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

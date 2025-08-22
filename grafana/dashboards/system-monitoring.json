@@ -1,0 +1,84 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "System Monitoring - Riemann",
+    "tags": ["riemann", "system"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "CPU Usage",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "SELECT mean(\"value\") FROM \"cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "interval": "",
+            "legendFormat": "CPU %",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Memory Usage", 
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "SELECT mean(\"value\") FROM \"memory\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "interval": "",
+            "legendFormat": "Memory %",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Load Average",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "SELECT mean(\"value\") FROM \"load\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "interval": "",
+            "legendFormat": "Load Average",
+            "refId": "A"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "Service Status",
+        "type": "table",
+        "targets": [
+          {
+            "expr": "SELECT \"host\", \"service\", \"state\", \"metric\" FROM \"postgres status\", \"alfresco status\" WHERE $timeFilter ORDER BY time DESC LIMIT 20",
+            "interval": "",
+            "refId": "A"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 16}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "10s"
+  }
+}

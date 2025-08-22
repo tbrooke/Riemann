@@ -1,0 +1,144 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Riemann System Monitoring (Fixed)",
+    "tags": ["riemann", "system", "monitoring"],
+    "timezone": "browser",
+    "refresh": "10s",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "panels": [
+      {
+        "id": 1,
+        "title": "CPU Usage",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 6, "x": 0, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") * 100 FROM \"cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "rawQuery": true,
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 70},
+                {"color": "red", "value": 90}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Memory Usage",
+        "type": "stat", 
+        "gridPos": {"h": 8, "w": 6, "x": 6, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") * 100 FROM \"memory\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "rawQuery": true,
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "min": 0,
+            "max": 100,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 80},
+                {"color": "red", "value": 95}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Load Average",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 6, "x": 12, "y": 0},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"load\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "rawQuery": true,
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "min": 0,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 1.5},
+                {"color": "red", "value": 2.5}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "System Metrics Over Time",
+        "type": "timeseries",
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8},
+        "targets": [
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") * 100 FROM \"cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "CPU %",
+            "rawQuery": true,
+            "refId": "A"
+          },
+          {
+            "datasource": "InfluxDB-Riemann", 
+            "query": "SELECT mean(\"value\") * 100 FROM \"memory\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "Memory %",
+            "rawQuery": true,
+            "refId": "B"
+          },
+          {
+            "datasource": "InfluxDB-Riemann",
+            "query": "SELECT mean(\"value\") FROM \"load\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+            "alias": "Load Average",
+            "rawQuery": true,
+            "refId": "C"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "overwrite": false
+}
