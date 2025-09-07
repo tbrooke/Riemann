@@ -1,0 +1,2 @@
+[console_scripts]
+riemann-client = riemann_client.command:main

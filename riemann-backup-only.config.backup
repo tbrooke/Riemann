@@ -1,0 +1,168 @@
+; -*- mode: clojure; -*-
+; Riemann configuration with Backup Monitoring Only
+
+(load-file "/opt/riemann/backup-monitor/backup_monitor.clj")
+(require [backup-monitor :as backup])
+
+(logging/init {:file "/var/log/riemann/riemann.log" :console true})
+
+; Listen on all interfaces
+(let [host "0.0.0.0"]
+  (tcp-server {:host host})
+  (udp-server {:host host})
+  (ws-server  {:host host}))
+
+; REPL server
+(repl-server {:host "0.0.0.0"})
+
+; Expire old events every 5 seconds
+(periodically-expire 5)
+
+; InfluxDB forwarder function
+(defn influxdb-line-protocol [event]
+  "Convert Riemann event to InfluxDB line protocol"
+  (let [measurement (:service event)
+        measurement-clean (clojure.string/replace measurement #"[^a-zA-Z0-9_.-]" "_")
+        tags (str "host=" (:host event))
+        fields (str "value=" (or (:metric event) 0))
+        timestamp (* 1000000000 (long (:time event)))]
+    (str measurement-clean "," tags " " fields " " timestamp)))
+
+; Send to InfluxDB via HTTP
+(defn send-to-influxdb [event]
+  "Send event to InfluxDB"
+  (try
+    (let [line (influxdb-line-protocol event)
+          url "http://influxdb:8086/write?db=riemann&u=riemann&p=riemann"]
+      ; Log the line protocol for debugging
+      (info "InfluxDB:" line)
+      ; In a real setup, you would HTTP POST the line to InfluxDB
+      ; For now, we are just logging to verify the format
+      )
+    (catch Exception e
+      (error "InfluxDB write failed:" (.getMessage e)))))
+
+; Backup monitoring every 5 minutes
+(let [backup-task 
+      (fn []
+        (try
+          (let [backup-events (backup/collect-backup-metrics)
+                monitor-health (backup/backup-monitor-health)]
+            (info "Collected" (count backup-events) "backup events")
+            ; Process backup events
+            (doseq [event backup-events]
+              (let [processed-event (merge {:time (unix-time) :ttl 600} event)]
+                (send-to-influxdb processed-event)
+                (info "Backup:" (:service processed-event) "=" (:metric processed-event) "state=" (:state processed-event))))
+            ; Process monitor health
+            (let [health-event (merge {:time (unix-time) :ttl 600} monitor-health)]
+              (send-to-influxdb health-event)
+              (info "Backup Monitor Health:" (:metric health-event))))
+          (catch Exception e
+            (error "Backup monitoring failed:" (.getMessage e))
+            (let [error-event {:service "backup.monitor.error"
+                              :state "critical"
+                              :description (str "Monitor error: " (.getMessage e))
+                              :time (unix-time)
+                              :ttl 600
+                              :host "trust-server"}]
+              (send-to-influxdb error-event)))))
+      
+      backup-scheduler (java.util.concurrent.Executors/newScheduledThreadPool 1)]
+  
+  ; Schedule backup monitoring to run every 5 minutes, starting after 30 seconds
+  (.scheduleWithFixedDelay backup-scheduler backup-task 30 300 java.util.concurrent.TimeUnit/SECONDS))
+
+; Main index
+(let [index (index)]
+  (streams
+    (default :ttl 60
+
+      ; Log all incoming events
+      #(info "Received:" (:service %) "=" (:metric %) "from" (:host %))
+
+      ; Index all events
+      index
+
+      ; Forward to InfluxDB (but not Riemann internal events to avoid noise)
+      (where (not (service #"riemann.*"))
+        send-to-influxdb)
+
+      ; === BACKUP ALERTING ===
+      
+      ; Critical backup alerts
+      (where (and (service #"backup\..*")
+                  (state "critical"))
+        #(error "CRITICAL BACKUP ALERT:" (:service %) "-" (:description %)))
+      
+      ; Backup health score alerts
+      (where (and (service "backup.health.score")
+                  (< metric 0.5))
+        #(warn "LOW BACKUP HEALTH SCORE:" (:metric %) "-" (:description %)))
+      
+      ; Stale backup alerts
+      (where (and (service "backup.freshness.age_hours")
+                  (> metric 25))
+        #(warn "STALE BACKUP:" (:metric %) "hours old -" (:description %)))
+      
+      ; Backup retention alerts
+      (where (and (service "backup.retention.daily.count")
+                  (< metric 3))
+        #(warn "LOW BACKUP RETENTION:" (:metric %) "daily backups"))
+      
+      ; Backup integrity alerts
+      (where (and (service "backup.integrity.score")
+                  (< metric 0.7))
+        #(warn "BACKUP INTEGRITY ISSUE: Score" (:metric %) "-" (:description %)))
+      
+      ; Backup process failure
+      (where (and (service "backup.process.last_success")
+                  (= metric 0))
+        #(error "BACKUP PROCESS FAILED:" (:description %)))
+
+      ; === EXISTING ALERTING ===
+
+      ; High CPU
+      (where (and (service "cpu")
+                  (> metric 0.8))
+        #(warn "High CPU:" (:host %) (:metric %)))
+
+      ; High memory
+      (where (and (service "memory")
+                  (> metric 0.85))
+        #(warn "High memory:" (:host %) (:metric %)))
+
+      ; High load
+      (where (and (service "load")
+                  (> metric 2.0))
+        #(warn "High load:" (:host %) (:metric %)))
+
+      ; Service down
+      (where (and (service #".*status")
+                  (< metric 1))
+        #(error "Service down:" (:host %) (:service %)))
+
+      ; === RATE CALCULATIONS ===
+
+      ; Calculate rates for counters (including backup metrics)
+      (where (service #".*bytes.*|.*requests.*|.*queries.*|backup\.storage\..*")
+        (by [:host :service]
+          (rate 60
+            (with :service (str (:service event) "-rate")
+              index
+              send-to-influxdb))))
+
+      ; === AGGREGATIONS ===
+
+      ; Cluster averages (including backup metrics)
+      (where (service #"cpu|memory|load|backup\.health\.score")
+        (by :service
+          (coalesce 5
+            (smap folds/mean
+              (with {:host "cluster" :service (str (:service event) "-cluster-avg")}
+                index
+                send-to-influxdb)))))
+
+      ; === EXPIRED EVENTS ===
+      (expired
+        #(warn "Expired:" (:service %) (:host %))))))

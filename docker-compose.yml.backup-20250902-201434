@@ -1,0 +1,61 @@
+version: "3.8"
+services:
+  riemann:
+    image: riemannio/riemann:latest
+    container_name: riemann-server
+    ports:
+      - "127.0.0.1:5555:5555"     # TCP
+      - "127.0.0.1:5555:5555/udp" # UDP
+      - "127.0.0.1:5556:5556"     # Websockets
+      - "127.0.0.1:5557:5557"     # REPL
+    volumes:
+      - ./riemann.config:/etc/riemann.config
+      - ./logs:/var/log/riemann
+      - ./lib:/opt/riemann/lib                           # JDBC drivers
+      - ./postgres-monitor:/opt/riemann/postgres-monitor # PostgreSQL monitoring code
+    restart: unless-stopped
+    networks:
+      - default
+    environment:
+      - JAVA_OPTS=-Xmx1g -Xms1g -cp "/opt/riemann/lib/*"
+      
+  influxdb:
+    image: influxdb:1.8
+    container_name: riemann-influxdb
+    ports:
+      - "127.0.0.1:8086:8086"
+    volumes:
+      - influx-data:/var/lib/influxdb
+    restart: unless-stopped
+    networks:
+      - default
+    environment:
+      - INFLUXDB_DB=riemann
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=riemann123
+      - INFLUXDB_USER=riemann
+      - INFLUXDB_USER_PASSWORD=riemann
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: riemann-grafana
+    ports:
+      - "127.0.0.1:3001:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+    depends_on:
+      - influxdb
+    restart: unless-stopped
+    networks:
+      - default
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=riemann123
+
+volumes:
+  influx-data:
+  grafana-data:
+
+networks:
+  default:
+    external: true
+    name: trust-network

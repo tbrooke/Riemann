@@ -1,16 +1,11 @@
 apiVersion: 1
 
 datasources:
-  - name: InfluxDB-Riemann
+  - name: InfluxDB
     type: influxdb
     access: proxy
-    url: http://influxdb:8086
+    url: http://riemann-influxdb:8086
     database: riemann
     user: riemann
     password: riemann
     isDefault: true
-    jsonData:
-      httpMode: GET
-      keepCookies: []
-    secureJsonData:
-      password: riemann
